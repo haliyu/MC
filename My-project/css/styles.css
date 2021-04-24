@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+body{
+    background-color: rgb(238, 245, 247);
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    color: gray;
+}
+
+.head {
+    line-height: 25px;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: lowercase;
+}
+.head h2 {
+    color: rgb(38, 106, 233);
+    font-size: 40px;
+}
+.head p {
+    padding-left: 140px;
+    color: black;
+}
+
+/*section2 */
+
+.text-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    flex-direction: column;
+    line-height: 50px;
+}
+.text-block h1 {
+    color: rgb(10, 10, 90);
+}
+
+/* input section*/
+
+ .input-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+ }
+ .email-input{
+     background-image: url(img/envelope-regular.svg);
+     background-repeat: no-repeat;
+     height: 40px;
+     width: 350px;
+     outline: none;
+     padding: 5px 125px 5px 15px;
+     margin: 30px 0;
+     border: none;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px 2px rgb(204, 201, 201);
+ }
+ .button{
+    height: 30px;
+    background-color: rgb(38, 106, 233);
+    color: rgb(241, 238, 226);
+    width: 110px;
+    outline: none;
+    margin-left:  -115px;
+    border: none;
+    border-radius: 5px;
+}
+.button:hover {
+    color: rgb(212, 208, 201);
+    box-shadow: 2px 2px 5px 2px rgb(150, 187, 255);
+}
+
+/*flex container*/
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 40px auto;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+    background-color: honeydew;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px 1px rgb(204, 201, 201);
+}
+.box{
+    width: 160px;
+    max-width: 180px;
+    height: 110px;
+    max-height: 120px;
+    padding: 10px;
+    background-color: honeydew;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 1px rgb(204, 201, 201);
+}
+.item .box #text {
+    text-align: left;
+    font-size: 13px;
+    padding: 2px;
+}
+h4{
+    color: rgb(0, 238, 71);
+    font-weight: bold;
+}
+h4 span {
+    color: rgb(0, 0, 0);
+}
+.fa-music{
+    margin-top: 30%;
+    color: chartreuse;
+}
+.fa-bolt{
+    margin-top: 30%;
+    color: rgb(250, 7, 7);
+}
+
+/* footer section */
+
+footer{
+    padding: 30px;
+    margin: 40px 0 10px;
+    letter-spacing: 1px;
+}
